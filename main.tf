@@ -29,6 +29,7 @@ module "elastic_beanstalk_environment" {
   environment_type             = var.environment_type
   loadbalancer_type            = var.loadbalancer_type
   loadbalancer_certificate_arn = var.loadbalancer_certificate_arn
+  loadbalancer_ssl_policy      = var.loadbalancer_ssl_policy
   availability_zone_selector   = var.availability_zone_selector
   rolling_update_type          = var.rolling_update_type
 
